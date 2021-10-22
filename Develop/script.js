@@ -13,6 +13,10 @@ var passwordLength = 10
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 function generatePassword() {
+window.prompt
+
+
+
 var includeUpperCaseLetters = confirm ("Use upper case letters?")
 var generatedPassword = ''
 if (includeUpperCaseLetters) {
@@ -37,15 +41,15 @@ if (includelowerCaseLetters) {
   chosenCharacters = chosenCharacters.concat (lowerCaseLetters)
 }
 
-for (var i=0, i<passwordLength, i++ {
-    return
-  } ++) {
+for (var i=0; i < passwordLength; i++) {
+  return generatedPassword.toString
+}
 //generate a random number called fred that is within the range of our chosen characters
 //select chosen characters [fred]
 //add selected character to password
-}
 
-  return generatedPassword.toString
+
+  
 }
 // Write password to the #password input
 function writePassword() {
